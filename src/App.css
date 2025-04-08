@@ -1,0 +1,160 @@
+body{
+  font-family: "Inter", "sans-serif";
+  background: rgba(250, 250, 248, 1);
+}
+
+/* Header Section */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+              0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.header h1{
+  font-weight: 400;
+  font-family: "Inter";
+}
+
+/* Main Componant*/
+main{
+  width: 80%;
+  margin: auto;
+}
+
+/* form input Section */
+form{
+  padding: 50px 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 594px;
+  height: 38px;
+  top: 178px;
+  left: 63px;
+  margin: 0 auto;
+}
+form input{
+  width: 399px;
+  height: 23px;
+  border-radius: 6px;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-right: 13px;
+  padding-bottom: 9px;
+  padding-left: 13px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(209, 213, 219, 1);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  max-width: 400px;
+  min-width: 150px;
+  font-family: "Inter";
+}
+form input:focus{
+  outline: 1px solid #777;
+}
+form button{
+  background: rgba(20, 20, 19, 1);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: rgba(250, 250, 248, 1);
+  width: 183px;
+  height: 42px;
+  border-radius: 6px;
+  padding-top: 9px;
+  padding-right: 17px;
+  padding-bottom: 9px;
+  padding-left: 17px;
+}
+
+/* Ingredients Display */
+main section > h1{
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0%;
+  margin-block: 0;
+}
+main section > ul{
+  margin: 0;
+  padding: 0 20px;
+}
+main section ul > li{
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: rgba(71, 84, 103, 1);
+  margin-block: 15px;
+}
+
+/* get recipe */
+main section > .get-rec{
+  border-radius: 8px;
+  background: rgba(240, 239, 235, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 35px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+main section .get-rec button{
+  border-radius: 6px;
+  padding-top: 9px;
+  padding-right: 17px;
+  padding-bottom: 9px;
+  padding-left: 17px;
+  background: rgba(209, 117, 87, 1);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: rgba(250, 250, 248, 1);
+  /* border: none; */
+  align-self: center;
+}
+.suggested-recipe-container {
+  color: #475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+  margin-bottom: 8px;
+}
+.cook{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+main > label{
+  margin-left: 40px;
+}
+select{
+  width: 100px;
+  height: 30px;
+  margin: 0 auto 40px 10px;
+  background-color: rgba(209, 117, 87, 1);
+  color: aliceblue;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+.suggested-recipe-container > h1{
+  margin: 30px 0 20px;
+}
